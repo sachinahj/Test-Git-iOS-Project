@@ -21,6 +21,7 @@
 		03AA8BD918CC4D5C00C091DA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03AA8BBB18CC4D5C00C091DA /* UIKit.framework */; };
 		03AA8BE118CC4D5C00C091DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03AA8BDF18CC4D5C00C091DA /* InfoPlist.strings */; };
 		03AA8BE318CC4D5C00C091DA /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA8BE218CC4D5C00C091DA /* Git_TestTests.m */; };
+		03AA8BEE18CC50AF00C091DA /* SATest.m in Sources */ = {isa = PBXBuildFile; fileRef = 03AA8BED18CC50AF00C091DA /* SATest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		03AA8BDE18CC4D5C00C091DA /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		03AA8BE018CC4D5C00C091DA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03AA8BE218CC4D5C00C091DA /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		03AA8BEC18CC50AF00C091DA /* SATest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SATest.h; sourceTree = "<group>"; };
+		03AA8BED18CC50AF00C091DA /* SATest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SATest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		03AA8BAB18CC4D5C00C091DA = {
 			isa = PBXGroup;
 			children = (
+				03AA8BEC18CC50AF00C091DA /* SATest.h */,
+				03AA8BED18CC50AF00C091DA /* SATest.m */,
 				03AA8BBD18CC4D5C00C091DA /* Git Test */,
 				03AA8BDC18CC4D5C00C091DA /* Git TestTests */,
 				03AA8BB618CC4D5C00C091DA /* Frameworks */,
@@ -253,6 +258,7 @@
 				03AA8BC818CC4D5C00C091DA /* SAAppDelegate.m in Sources */,
 				03AA8BCE18CC4D5C00C091DA /* SAViewController.m in Sources */,
 				03AA8BC418CC4D5C00C091DA /* main.m in Sources */,
+				03AA8BEE18CC50AF00C091DA /* SATest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
